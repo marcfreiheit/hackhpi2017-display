@@ -11,8 +11,8 @@ from luma.core.legacy.font import proportional, CP437_FONT, TINY_FONT, SINCLAIR_
 
 def displayInfo():
     # create matrix device
-    serial = spi(port=0, device=0, gpio=noop(), block_orientation=-90)
-    device = max7219(serial, width=32, height=32)
+    serial = spi(port=0, device=0, gpio=noop())
+    device = max7219(serial, width=32, height=32, block_orientation=-90)
 
     with canvas(device) as draw:
         draw.rectangle(device.bounding_box, outline="white")
