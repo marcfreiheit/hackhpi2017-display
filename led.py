@@ -26,8 +26,7 @@ def displayInfo(height):
 def googleTest():
     # create matrix device
     serial = spi(port=0, device=0, gpio=noop())
-    device = max7219(serial, width=32, height=64, block_orientation=-90)
+    device = max7219(serial, width=32, height=32, block_orientation=-90)
 
     with canvas(device) as draw:
-        text(draw, (2, 12), "HELLO", fill="white", font=proportional(SINCLAIR_FONT))        
-        text(draw, (2, 40), "HELLO", fill="white", font=proportional(SINCLAIR_FONT))        
+        text(draw, (2, 5), "HELLO", fill="white", font=proportional(SINCLAIR_FONT))    
