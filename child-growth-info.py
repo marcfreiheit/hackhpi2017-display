@@ -15,7 +15,7 @@ def displayInfo():
     device = max7219(serial, width=32, height=32, block_orientation=-90)
 
     with canvas(device) as draw:
-        text(draw, (2, -1), "Viel Text", fill="white", font=proportional(TINY_FONT))
+        text(draw, (0, -1), "Viel Text", fill="white", font=proportional(TINY_FONT))
         text(draw, (3, 8), "2017", fill="white", font=proportional(SINCLAIR_FONT))
         text(draw, (2, 18), "1.92m", fill="white", font=proportional(SINCLAIR_FONT))
         # draw.line()
