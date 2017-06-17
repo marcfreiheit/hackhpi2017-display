@@ -20,7 +20,7 @@ def displayInfo():
         text(draw, (2, 18), "1.92m", fill="white", font=proportional(SINCLAIR_FONT))
         # draw.line()
 
-    time.sleep(10)
+    time.sleep(10000)
 
 
 displayInfo()
