@@ -17,7 +17,7 @@ def displayInfo():
     with canvas(device) as draw:
         draw.rectangle(device.bounding_box, outline="white")
         text(draw, (2, 2), "17.06", fill="white", font=proportional(SINCLAIR_FONT))
-        text(draw, (7, 10), "2017", fill="white", font=proportional(SINCLAIR_FONT))
+        text(draw, (5, 10), "2017", fill="white", font=proportional(SINCLAIR_FONT))
         text(draw, (2, 18), "1.92m", fill="white", font=proportional(SINCLAIR_FONT))
         # draw.line()
 
