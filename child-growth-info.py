@@ -21,3 +21,6 @@ def displayInfo():
 
     time.sleep(10)
 
+
+displayInfo()
+
