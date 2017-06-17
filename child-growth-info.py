@@ -12,7 +12,7 @@ from luma.core.legacy.font import proportional, CP437_FONT, TINY_FONT, SINCLAIR_
 def displayInfo():
     # create matrix device
     serial = spi(port=0, device=0, gpio=noop())
-    device = max7219(serial, width=32, height=32)
+    device = max7219(serial, width=4, height=4)
 
     with canvas(device) as draw:
         draw.rectangle(device.bounding_box, outline="white")
