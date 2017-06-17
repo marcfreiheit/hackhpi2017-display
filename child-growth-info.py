@@ -16,7 +16,7 @@ def displayInfo():
 
     with canvas(device) as draw:
         draw.rectangle(device.bounding_box, outline="white")
-        text(draw, (2, 2), "Größe", fill="white", font=proportional(LCD_FONT))
+        text(draw, (2, 2), "Groesse", fill="white", font=proportional(LCD_FONT))
         text(draw, (2, 10), "1,92m", fill="white", font=proportional(LCD_FONT))
         text(draw, (2, 18), "Toll!", fill="white", font=proportional(LCD_FONT))
 
