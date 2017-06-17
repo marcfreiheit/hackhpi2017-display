@@ -29,4 +29,4 @@ def googleTest():
     device = max7219(serial, width=32, height=32, block_orientation=-90)
 
     with canvas(device) as draw:
-        text(draw, (2, 15), "Hallo", fill="white", font=proportional(SINCLAIR_FONT))
+        text(draw, (2, 12), "GREAT", fill="white", font=proportional(SINCLAIR_FONT))
