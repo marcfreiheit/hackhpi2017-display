@@ -17,7 +17,7 @@ def displayInfo(height):
 
     with canvas(device) as draw:
         text(draw, (2, 0), now.strftime("%d.%m"), fill="white", font=proportional(SINCLAIR_FONT))
-        text(draw, (3, 8), now.year, fill="white", font=proportional(SINCLAIR_FONT))
+        text(draw, (3, 8), "2017", fill="white", font=proportional(SINCLAIR_FONT))
         text(draw, (2, 18), str(height) + "m", fill="white", font=proportional(SINCLAIR_FONT))
         # draw.line()
 
