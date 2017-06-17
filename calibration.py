@@ -1,4 +1,8 @@
 import multilineMAX7219 as LEDMatrix
+# The following imported variables make it easier to feed parameters to the library functions
+from multilineMAX7219 import DIR_L, DIR_R, DIR_U, DIR_D
+from multilineMAX7219 import DIR_LU, DIR_RU, DIR_LD, DIR_RD
+from multilineMAX7219 import DISSOLVE, GFX_ON, GFX_OFF, GFX_INVERT
 
 LEDMatrix.init()
 
