@@ -12,4 +12,4 @@ bottle.TEMPLATE_PATH.insert(0, view_path)
 def do_display(text):
     led.displayInfo(text)
 
-run(host='localhost', port=8080, debug=True)
+run(host='172.16.63.40', port=8080, debug=True)
