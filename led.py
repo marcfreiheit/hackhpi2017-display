@@ -37,5 +37,5 @@ def calibrate ():
     device = max7219(serial, width=32, height=32, block_orientation=-90)
 
     with canvas(device) as draw:
-        draw.rectangle((4, 4, 8, 12), outline="white", fill="white")
-        draw.rectangle((4, 20, 12, 28), outline="white", fill="white")
+        draw.rectangle((4, 4, 7, 11), outline="white", fill="white")
+        draw.rectangle((4, 20, 11, 27), outline="white", fill="white")
