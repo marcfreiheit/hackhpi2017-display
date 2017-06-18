@@ -26,4 +26,8 @@ def do_calibration():
 def do_iamout():
     led.iamout()
 
+@route('/display/eatsleepraverepeat')
+def do_eatsleepraverepeat():
+    led.eatsleepraverepeat()
+
 run(host='172.16.63.40', port=8080, debug=True)

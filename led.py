@@ -53,3 +53,14 @@ def iamout():
         text(draw, (2, 0), "I", fill="white", font=proportional(SINCLAIR_FONT))
         text(draw, (2, 8), "am", fill="white", font=proportional(SINCLAIR_FONT))
         text(draw, (2, 16), "out", fill="white", font=proportional(SINCLAIR_FONT))
+
+def eatsleepraverepeat():
+    # create matrix device
+    serial = spi(port=0, device=0, gpio=noop())
+    device = max7219(serial, width=32, height=32, block_orientation=-90)
+
+    with canvas(device) as draw:
+        text(draw, (2, 0), "eat", fill="white", font=proportional(SINCLAIR_FONT))
+        text(draw, (2, 8), "sleep", fill="white", font=proportional(SINCLAIR_FONT))
+        text(draw, (2, 16), "rave", fill="white", font=proportional(SINCLAIR_FONT))
+        text(draw, (2, 24), "repeat", fill="white", font=proportional(SINCLAIR_FONT))
