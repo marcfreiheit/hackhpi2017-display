@@ -39,3 +39,10 @@ def calibrate ():
     with canvas(device) as draw:
         draw.rectangle((4, 4, 7, 11), outline="white", fill="white")
         draw.rectangle((4, 20, 11, 27), outline="white", fill="white")
+        draw.rectangle((20, 20, 27, 27), outline="white", fill="white")
+        draw.rectangle((8, 16, 15, 23), outline="white", fill="white")
+        draw.rectangle((12, 12, 23, 15), outline="white", fill="white")
+        draw.rectangle((24, 8, 20, 27), outline="white", fill="white")
+        draw.rectangle((16, 4, 23, 7), outline="white", fill="white")
+        draw.rectangle((16, 8, 19, 11), outline="white", fill="white")
+
