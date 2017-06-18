@@ -29,7 +29,7 @@ def googleTest():
     device = max7219(serial, width=32, height=32, block_orientation=-90)
 
     with canvas(device) as draw:
-        text(draw, (2, 0), "HIVE", fill="white", font=proportional(SINCLAIR_FONT))
+        text(draw, (2, 12), "HIVE", fill="white", font=proportional(SINCLAIR_FONT))
 
 def calibrate ():
     # create matrix device
