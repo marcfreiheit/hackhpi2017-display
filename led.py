@@ -30,3 +30,12 @@ def googleTest():
 
     with canvas(device) as draw:
         draw.rectangle((0, 0, 15, 3), outline="white", fill="white")   
+
+def calibreate ():
+    # create matrix device
+    serial = spi(port=0, device=0, gpio=noop())
+    device = max7219(serial, width=32, height=32, block_orientation=-90)
+
+    with canvas(device) as draw:
+        draw.rectangle((4, 4, 8, 12), outline="white", fill="white")
+        draw.rectangle((4, 20, 12, 28), outline="white", fill="white")
