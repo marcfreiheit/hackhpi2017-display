@@ -52,7 +52,8 @@ def iamout():
     with canvas(device) as draw:
         text(draw, (2, 0), "I", fill="white", font=proportional(SINCLAIR_FONT))
         text(draw, (2, 8), "am", fill="white", font=proportional(SINCLAIR_FONT))
-        text(draw, (2, 16), "out", fill="white", font=proportional(SINCLAIR_FONT))
+        text(draw, (2, 16), "done.", fill="white", font=proportional(SINCLAIR_FONT))
+
 
 def eatsleepraverepeat():
     # create matrix device
