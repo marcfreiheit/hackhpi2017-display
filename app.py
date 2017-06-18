@@ -20,6 +20,6 @@ def do_google():
 
 @route('/display/calibrate')
 def do_calibration():
-    calibration.calibrate()
+    led.calibrate()
 
 run(host='172.16.63.40', port=8080, debug=True)
