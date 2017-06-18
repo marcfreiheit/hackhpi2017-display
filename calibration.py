@@ -21,5 +21,5 @@ def calibrate():
     #LEDMatrix.gfx_set_px(0,8, GFX_ON)
     #LEDMatrix.gfx_set_px(0,24, GFX_ON)
     #LEDMatrix.gfx_set_px(31,7, GFX_ON)
-    # LEDMatrix.gfx_sprite_array(matrix, 0, 24, GFX_ON)
+    LEDMatrix.gfx_sprite_array(matrix, 0, 24, GFX_ON)
     LEDMatrix.gfx_render()
