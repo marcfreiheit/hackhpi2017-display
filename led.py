@@ -21,8 +21,6 @@ def displayInfo(height):
         text(draw, (2, 18), str(height) + "m", fill="white", font=proportional(SINCLAIR_FONT))
         # draw.line()
 
-    luma.led_matrix.device.time.sleep(10)
-
 def googleTest():
     # create matrix device
     serial = spi(port=0, device=0, gpio=noop())
