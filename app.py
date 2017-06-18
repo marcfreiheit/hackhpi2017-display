@@ -22,4 +22,8 @@ def do_google():
 def do_calibration():
     led.calibrate()
 
+@route('/display/iamout')
+def do_iamout():
+    led.iamout()
+
 run(host='172.16.63.40', port=8080, debug=True)
